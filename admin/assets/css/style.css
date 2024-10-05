@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* .user-cart span{
+    background-color:red; 
+    padding-right:3px; 
+    padding-left:3px;  
+    border-radius:10px; 
+    font-size:18px;
+    margin-left:-1.2rem;
+} */
+
+/*********** admin dashboard styling **********/
+  .card{
+      background-color: #1a1917e1;
+      padding:20px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 8px 5px 5px #03312f;
+  }
+
+/************************** for sidebar ***********************************/
+
+  /* The sidebar menu */
+  .sidebar {
+      height: 100%; 
+      width: 0; 
+      position: fixed; 
+      z-index: 1; 
+      top: 0;
+      left: 0;
+      background-color: #1e2024; 
+      overflow-x: hidden; 
+      padding-top: 60px; 
+      transition: 0.5s; 
+    }
+    
+    /* The sidebar links */
+    .sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 22px;
+      color: #fff;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidebar .side-header{
+        
+          margin-left: 30px;
+          margin-bottom: 8px;
+          color: #fff;
+      }
+
+    .sidebar a:hover {
+      background-color: #117fd3;
+    }
+    
+    .sidebar .closebtn {
+      position: absolute;
+      top: 0;
+      right: 2px;
+      font-size: 34px;
+      margin-left: 50px;
+    }
+    
+    .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      padding: 10px 15px;
+      border: none;
+      color: #fff;
+      background-color:#4d4d75;
+    }
+    
+    .openbtn:hover {
+      color: #117fd3;
+      background-color:#3a2424;
+    }
+    
+    #main {
+      transition: margin-left .5s; 
+      padding: 20px;
+    }
+    
+
+    @media screen and (max-height: 450px) {
+      .sidebar {padding-top: 15px;}
+      .sidebar a {font-size: 18px;}
+    }
